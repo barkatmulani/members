@@ -1,0 +1,23 @@
+type Query {
+  member(id: ID!): Member
+}
+
+type Member {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  details: MembershipType!
+  visits: [MemberVisit]
+}
+
+type MembershipType {
+   """ Gold / Silver / Bronze """
+  memberType: String!
+}
+
+type MemberVisit {
+  facility: String!
+  visitDate: String!
+  visitTime: String!
+}
