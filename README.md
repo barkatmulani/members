@@ -48,6 +48,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+## Before running the Application
+Make sure that you run `npm install` in both the project directories after downloading the files from this git repository. Steps are as follows:
+
+1. Open a command prompt, and change the directory to the **server** folder. Then enter `npm install`.
+2. Open another command prompt, and change the directory to the **client** folder. Then enter `npm install`.
+
 ## Instructions to Run the Application
 1. Open a command prompt, and change the directory to the **server** folder. Then enter `npm start`.
 2. Open another command prompt, and change the directory to the **client** folder. Then enter `npm start`.
